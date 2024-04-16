@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main features */
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+.button-hover {
+    background:#2478FF;
+    color: #fff;
+}
+.button-hover:hover {
+    background: #1e70ef;
+    cursor: pointer;
+}
+.button-hover:active {
+    background: #216fdd;
+}
+
+/* header css*/
+
+/* header navber css */
+header {
+    background: url(/images/yangisi.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 20px 0;
+    position: relative;
+    margin-bottom: 10000px;
+}
+header .navbar .container .logo a img {
+    font-size: 0px;
+    width: 35px;
+    margin-right: 7px;
+}
+header .navbar .container .logo a {
+    display: flex;
+    text-decoration: none;
+}
+header .navbar .container .logo a h3 {
+    text-decoration: none;
+    color: #fff;
+}
+header .navbar {
+    background: transparent;
+    padding: 10px 0;
+    position: sticky;
+    top: 10px;
+}
+header .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar .container nav ul  {
+    display: flex;
+}
+header .navbar .container nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+header .navbar .container nav ul li a {
+    color: #8DABD2;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+header .navbar .container nav ul li a:hover {
+    color: #fff;
+}
+
+header .navbar .container .nav-login span a  {
+    text-decoration: none;
+    color: #fff;
+}
+header .navbar .container .nav-login button {
+    background:#2478FF;
+    border: none;
+    transition: all ease 0.3s;
+    padding: 10px;
+    border-radius: 17.5px;
+    color: #fff;
+    margin-left: 10px;
+}
+header .navbar .container .nav-login button:hover {
+    background: #1e70ef;
+    cursor: pointer;
+}
+header .navbar .container .nav-login button:active {
+    background: #216fdd;
+}
+
+/* header main theme */
+
+header .main-theme {
+    margin-top: 60px;
+}
+header .main-theme h1{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+header .main-theme p {
+    font-size: 15px;
+    color: #8DABD2;
+    margin: 20px 0;
+}
+header .main-theme form {
+    background: #fff;
+    border-radius: 0.7em;
+    display: inline-block;
+    padding: 6px;
+}
+header .main-theme form .form-row {
+    display: flex;
+}
+header .main-theme .one {
+    width: 150px;
+}
+header .main-theme .two {
+    width: 200px;
+}
+header .main-theme .two .dis2 {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    padding-left: 15px;
+}
+header .main-theme .form-box .display {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease 0.4s;
+    margin:  0 7px;
+}
+header .main-theme .three .display .box1 input {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    width: 100px;
+}
+header .main-theme .form-box .display .box1 {
+    margin-right: 20px;
+}
+header .main-theme .form-box .display:hover {
+    border-radius: 0.7em;
+    background:#E9EAF2;
+    border: none;
+    cursor: pointer;
+}
+header .main-theme .button-hover {
+    border: none;
+    border-radius: 0.7em;
+    padding: 0 10px;
+}
