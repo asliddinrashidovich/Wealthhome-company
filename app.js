@@ -1,11 +1,13 @@
 // main section Javascript
 
-const iconHeart = document.querySelector('.icon-heart');
+const iconHeart = document.querySelectorAll('.icon-heart');
 const imgScale = document.querySelectorAll('img-scale');
 const imgboxOne = document.getElementById('img-scale')
 
-console.log(imgboxOne)
 
-imgboxOne.addEventListener('mouseover', (e) => {
-    iconHeart.classList.toggle('hidden')
-})
+// imgboxOne.addEventListener('mouseenter', (e) => {
+//     iconHeart.style.opacity = '1'
+// })
+// imgboxOne.addEventListener('mouseout', (e) => {
+//     iconHeart.style.opacity = '0'
+// })
