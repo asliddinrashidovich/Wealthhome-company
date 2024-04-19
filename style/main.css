@@ -206,6 +206,8 @@ header .main-theme form button {
     align-items: center;
     margin-top: -20px;
     margin-bottom: 30px;
+    width: 100%;
+    position: relative;
 }
 .main-section .main-header .box-1 h2{
     margin: 20px 0;
@@ -218,6 +220,8 @@ header .main-theme form button {
     transition: all ease 0.3s;
     border: 2px solid #1e70ef;
     border-radius: 24px;
+    position: absolute;
+    right: 0;
 }
 .main-section .main-header .box-2 button:hover {
     cursor: pointer;
@@ -353,4 +357,78 @@ header .main-theme form button {
     width: 100%;
     border-radius: 15px;
     height: 420px;
+}
+.section .vidio {
+    width: 100%;
+    height: 400px;
+    margin: 40px 0;
+}
+.section .vidio video {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* section */
+
+/* customers */
+
+.customers .custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customers .custom-header h3 {
+    color: blue;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.customers .custom-header h1 {
+    margin: 20px 0;
+}
+.customers .custom-header img{
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+.customers .custom-header .two-img {
+    position: relative;
+    left: -10px;
+
+}
+.customers .custom-header .three-img {
+    position: relative;
+    left: -20px;
+}
+.customers .custom-header .ninety-nine {
+    position: relative;
+    left: -30px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+
+}
+
+
+.customers .custom-header .button-more {
+    padding: 10px 20px ;
+    color: #1e70ef;
+
+    background: #fff;
+    transition: all ease 0.3s;
+    border: 2px solid #1e70ef;
+    border-radius: 24px;
+}
+.customers .custom-header button:hover {
+    cursor: pointer;
+    background: #1e70ef;
+    color: #fff;
 }
