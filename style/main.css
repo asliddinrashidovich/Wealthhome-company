@@ -374,6 +374,7 @@ header .main-theme form button {
 
 .customers .custom-header {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -419,7 +420,7 @@ header .main-theme form button {
 
 
 .customers .custom-header .button-more {
-    padding: 10px 20px ;
+
     color: #1e70ef;
 
     background: #fff;
@@ -431,4 +432,78 @@ header .main-theme form button {
     cursor: pointer;
     background: #1e70ef;
     color: #fff;
+}
+
+.customers .family-customers {
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.customers .family-customers .box {
+    position: relative;
+    height: 300px;
+    border-radius: 12px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: all ease 0.3s;
+}
+.customers .family-customers .box:hover {
+    transform: scale(0.97);
+    cursor: pointer;
+}
+.customers .family-customers .box .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.customers .family-customers .box .profile p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.customers .family-customers .box .profile .icons {
+    display: flex;
+    align-items: center;
+}
+.customers .family-customers .box  img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.customers .family-customers .one {
+    width: 25%;
+    background-image: url(/images/familyimg1.jpeg);
+    background-size: cover;
+}
+.customers .family-customers .two {
+    width: 40%;
+    background-image: url(/images/familyimg4.jpeg);
+    background-size: cover;
+}
+.customers .family-customers .three {
+    width: 33%;
+    background-image: url(/images/familyimg3.webp);
+    background-size: cover;
+    background-position: center;
+    margin-right: 0;
+}
+.customers .family-customers .four {
+    width: 25%;
+    background-image: url(/images/familyimg7.webp);
+    background-size: cover;
+    background-position: center -200px;
+    width: 40%;
+}
+.customers .family-customers .five {
+    width: 33%;
+    background-image: url(/images/familyimg5.jpeg);
+    background-size: cover;
+}
+.customers .family-customers .six {
+    width: 25%;
+    background-image: url(/images/familyimg6.jpeg);
+    background-size: cover;
+    margin-right: 0;
 }
