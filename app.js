@@ -1,13 +1,19 @@
-// main section Javascript
-
+// <i class="fa-solid fa-heart"></i>
 const iconHeart = document.querySelectorAll('.icon-heart');
-const imgScale = document.querySelectorAll('img-scale');
-const imgboxOne = document.getElementById('img-scale')
+const imgBox = document.querySelectorAll('.img-box')
+const contentBox = document.querySelectorAll('.content')
 
+let checKed = false;
 
-// imgboxOne.addEventListener('mouseenter', (e) => {
-//     iconHeart.style.opacity = '1'
-// })
-// imgboxOne.addEventListener('mouseout', (e) => {
-//     iconHeart.style.opacity = '0'
-// })
+iconHeart.forEach((value, index) => {
+    value.addEventListener('click', ()=> {
+        if (!checKed) {
+            value.innerHTML = `<i class="fa-solid fa-heart" style="color: red;"></i>`
+            checKed = true;
+        } else {
+            value.innerHTML = `<i class="fa-regular fa-heart " style="color: red;"></i>`
+            checKed = false;
+        }
+    })
+})
+
